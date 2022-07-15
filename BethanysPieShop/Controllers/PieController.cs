@@ -20,7 +20,7 @@ namespace BethanysPieShop.Controllers
         }
 
         //ViewResult is a  built-in type of ASP.NET core MVC
-        public IActionResult List()
+        public ViewResult List()
         {
             PiesListViewModel piesListViewModel = new PiesListViewModel();
 
